@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fondazione Garzillo's</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f5f7fb;
+      color: #1b1b1b;
+    }
+
+    header {
+      background: linear-gradient(135deg, #0b4aa2, #2b8cff);
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      opacity: 0.9;
+    }
+
+    nav {
+      background: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 15px;
+      position: sticky;
+      top: 0;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #0b4aa2;
+      font-weight: bold;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+
+    .card {
+      background: white;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+      margin-top: 20px;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .hero h2 {
+      font-size: 2em;
+      color: #0b4aa2;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 20px;
+      background: #0b4aa2;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    footer {
+      background: #0b4aa2;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #e8f1ff;
+      color: #0b4aa2;
+      padding: 5px 10px;
+      border-radius: 20px;
+      font-size: 0.8em;
+      margin: 5px 5px 0 0;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Fondazione Garzillo's</h1>
+  <p>Proteggiamo le persone dai pericoli del web attraverso informazione e sensibilizzazione</p>
+</header>
+
+<nav>
+  <a href="#chi-siamo">Chi siamo</a>
+  <a href="#missione">Missione</a>
+  <a href="#pericoli">Pericoli online</a>
+  <a href="#contatti">Contatti</a>
+</nav>
+
+<div class="hero">
+  <h2>Un web più sicuro per tutti</h2>
+  <p>Educazione digitale, prevenzione e consapevolezza contro le minacce online.</p>
+  <a class="btn" href="#missione">Scopri di più</a>
+</div>
+
+<section id="chi-siamo">
+  <h2>Chi siamo</h2>
+  <div class="card">
+    <p>
+      La <strong>Fondazione Garzillo's</strong> è un'organizzazione dedicata alla sensibilizzazione sui rischi del web.
+      Lavoriamo per educare giovani e adulti all'uso consapevole di internet.
+    </p>
+  </div>
+</section>
+
+<section id="missione">
+  <h2>La nostra missione</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Educazione digitale</h3>
+      <p>Insegnare come usare internet in modo sicuro e responsabile.</p>
+    </div>
+    <div class="card">
+      <h3>Prevenzione</h3>
+      <p>Ridurre i rischi legati a truffe, cyberbullismo e phishing.</p>
+    </div>
+    <div class="card">
+      <h3>Supporto</h3>
+      <p>Aiutare chi è vittima di abusi o pericoli online.</p>
+    </div>
+  </div>
+</section>
+
+<section id="pericoli">
+  <h2>Pericoli del web</h2>
+  <div class="card">
+    <p>Il web può essere uno strumento potente, ma anche pericoloso se usato senza consapevolezza.</p>
+
+    <span class="tag">Cyberbullismo</span>
+    <span class="tag">Phishing</span>
+    <span class="tag">Furto di identità</span>
+    <span class="tag">Fake news</span>
+    <span class="tag">Truffe online</span>
+  </div>
+</section>
+
+<section id="contatti">
+  <h2>Contatti</h2>
+  <div class="card">
+    <p>Email: info@fondazionegarzillos.org</p>
+    <p>Telefono: +39 000 123 4567</p>
+    <p>Social: @fondazionegarzillos</p>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Fondazione Garzillo's - Tutti i diritti riservati</p>
+</footer>
+
+</body>
+</html>
